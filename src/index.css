@@ -1,14 +1,33 @@
 :root {
+    --color-background: #242424;
+
+    --color-primary-text: #fff;
+    --color-secondary-text: #bbb;
+
+    --color-primary-button: #fd0c0c;
+    --color-secondary-button: #d72d27;
+
+    --color-active-icon: #9d2c3e;
+    --color-inactive-icon: #fd0c0c;
+
+    --color-active-link: #fd0c0c;
+    --color-hover-link: #d72d27;
+
+    --color-border: #a02f1f;
+
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    body {
+        margin: 0;
+    }
 }
