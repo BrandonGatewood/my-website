@@ -7,10 +7,12 @@ import {
 import ContactPage from "./pages/ContactPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import HomePage from "./pages/HomePage";
+import Navbar from "./components/Navbar";
 
 function App() {
     return (
         <Router>
+            <Navbar />
             <Routes>
                 <Route path="/Home" element={<HomePage />}></Route>
                 <Route path="/Projects" element={<ProjectsPage />}></Route>
