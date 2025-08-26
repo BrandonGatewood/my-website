@@ -8,10 +8,12 @@ import ContactPage from "./pages/ContactPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
+import RouteTitle from "./components/RouteTitle";
 
 function App() {
     return (
         <Router>
+            <RouteTitle />
             <Navbar />
             <Routes>
                 <Route path="/Home" element={<HomePage />}></Route>
